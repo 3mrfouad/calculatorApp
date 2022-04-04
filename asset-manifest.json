@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/calculatorApp/static/css/main.0694ae27.css",
-    "main.js": "/calculatorApp/static/js/main.f5949352.js",
+    "main.css": "/calculatorApp/static/css/main.44c4ab15.css",
+    "main.js": "/calculatorApp/static/js/main.91615348.js",
     "static/js/787.a174f9e5.chunk.js": "/calculatorApp/static/js/787.a174f9e5.chunk.js",
     "static/media/Mitr-Regular.ttf": "/calculatorApp/static/media/Mitr-Regular.0ae06c243eeaf39df606.ttf",
     "static/media/Mitr-Medium.ttf": "/calculatorApp/static/media/Mitr-Medium.424c4cea28d2503a2b7e.ttf",
     "static/media/Orbitron-Medium.ttf": "/calculatorApp/static/media/Orbitron-Medium.162802b777eeb52a4ce7.ttf",
     "static/media/Orbitron-Regular.ttf": "/calculatorApp/static/media/Orbitron-Regular.0c8a947e2b163c4bd485.ttf",
     "index.html": "/calculatorApp/index.html",
-    "main.0694ae27.css.map": "/calculatorApp/static/css/main.0694ae27.css.map",
-    "main.f5949352.js.map": "/calculatorApp/static/js/main.f5949352.js.map",
+    "main.44c4ab15.css.map": "/calculatorApp/static/css/main.44c4ab15.css.map",
+    "main.91615348.js.map": "/calculatorApp/static/js/main.91615348.js.map",
     "787.a174f9e5.chunk.js.map": "/calculatorApp/static/js/787.a174f9e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0694ae27.css",
-    "static/js/main.f5949352.js"
+    "static/css/main.44c4ab15.css",
+    "static/js/main.91615348.js"
   ]
 }
