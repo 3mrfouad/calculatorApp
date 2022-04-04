@@ -1,0 +1,30 @@
+@import './assets/colors';
+@import './assets/fonts/fonts.css';
+
+.App {
+  font-family: var(--app-primary-font);
+}
+
+.buttonsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem 0.5rem;
+  padding: 0 1rem 8rem 1rem;
+}
+
+.calcDisplay {
+  font-size: 3rem;
+  text-align: right;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 350px;
+  margin: 0 2rem 1rem 0;
+  color: var(--white-color);
+}
+
+@media screen and (min-width: 600px) {
+  .buttonsGrid {
+    padding: 0 1rem 2rem 1rem;
+  }
+}

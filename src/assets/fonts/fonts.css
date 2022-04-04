@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Orbitron';
+  src: url('./Orbitron-Medium.ttf') format('woff2'),
+    url('./Orbitron-Regular.ttf') format('woff2');
+}
+@font-face {
+  font-family: 'Mitr';
+  src: url('./Mitr-Medium.ttf') format('woff2'),
+    url('./Mitr-Regular.ttf') format('woff2');
+}
+
+:root {
+  --app-primary-font: 'Orbitron';
+  --app-secondary-font: 'Mitr';
+}

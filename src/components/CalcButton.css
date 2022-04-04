@@ -1,0 +1,61 @@
+@import '../assets/colors.css';
+@import '../assets/fonts/fonts.css';
+:root {
+  --btn-dia: 4.85rem;
+  --circle-radius-ratio: 50%;
+  --wide-btn-ratio: 2.15;
+  --btn-font-size: 1.75rem;
+  --btn-font-weight: 500;
+  --btn-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btn {
+  border: none;
+  width: var(--btn-dia);
+  height: var(--btn-dia);
+  border-radius: var(--circle-radius-ratio);
+  font-family: var(--app-primary-font);
+  font-size: var(--btn-font-size);
+  font-weight: var(--btn-font-weight);
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+.btn-secondary {
+  background-color: var(--light-turquoise-color);
+  color: var(--black-color);
+  font-size: calc(var(--btn-font-size) * 0.8);
+}
+
+.btn-primary {
+  color: var(--white-color);
+  background-color: var(--orange-color);
+}
+
+.btn-dark,
+.btn-dark-lg {
+  color: var(--white-color);
+  background-color: var(--dark-grey-color);
+}
+
+.btn-dark-lg {
+  text-align: left;
+  width: calc(var(--btn-dia) * var(--wide-btn-ratio));
+  border-radius: var(--btn-dia);
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.text-lg {
+  font-size: calc(var(--btn-font-size) * 1.15);
+}
+
+@media screen and (min-width: 800px) {
+  .btn-dark-lg {
+    text-indent: var(--btn-font-size);
+  }
+}
